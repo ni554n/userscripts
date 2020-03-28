@@ -3,12 +3,12 @@
 // @name                Video Speed Control with Keyboard
 // @description         Control any HTML5 video playback speed by pressing shortcut keys. See source code comment for the shortcut keymap.
 // @version             3.0
-// @license             MIT
-
-// @supportURL          https://github.com/ni554n/userscripts/issues
 
 // @namespace           io.github.ni554n
 // @include             *
+
+// @supportURL          https://github.com/ni554n/userscripts/issues
+// @license             MIT
 
 // @author              Nissan Ahmed
 // @homepageURL         https://ni554n.github.io/
