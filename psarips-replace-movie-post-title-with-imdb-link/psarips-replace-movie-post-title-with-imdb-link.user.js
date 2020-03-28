@@ -22,5 +22,7 @@ const imdbIcon = `<i class="fab fa-imdb" style="font-style: normal;"></i>`;
 const [imdbLink] = document.getElementsByClassName("sp-body folded")[0].innerText
     .match(/https:\/\/www.imdb.com\/title\/\w+\//);
 
-const [movieTitle] = document.getElementsByClassName("post-title entry-title");
-movieTitle.innerHTML = `<a href="${imdbLink}">${imdbIcon} ${movieTitle.innerText} ${linkIcon}</a>`;
+if (imdbLink) {
+  const [movieTitle] = document.getElementsByClassName("post-title entry-title");
+  movieTitle.innerHTML = `<a href="${imdbLink}">${imdbIcon} ${movieTitle.innerText} ${linkIcon}</a>`;
+}
