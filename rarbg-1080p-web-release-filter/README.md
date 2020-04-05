@@ -1,7 +1,9 @@
 # RARBG 1080p Web Release Filter
 
-This userscript filters out releases other than **1080p Web** from RARBG _**TV HD Episodes**_ category. Also works on
- search in that category.
+Userscript for filtering out releases other than **1080p Web** from RARBG _**TV HD Episodes**_ category. Also works on
+ search within that category.
+ 
+ ![Preview](https://github.com/ni554n/userscripts/raw/master/art/RARBG%201080p%20Web%20Release%20Filter.png)
 
 ## Requirement
 
@@ -25,11 +27,11 @@ Use any of these following links:
 ## Version History
 
 - 2.0
-  - Added Web filter with 1080p.
+  - Added Web filter with 1080p filter.
 - 1.5
-  - Now filtering works on the search page.
+  - Added filtering on the search page.
 - 1.0
-  - Filters 1080p only.
+  - Initial release.
 
 ## Information
 

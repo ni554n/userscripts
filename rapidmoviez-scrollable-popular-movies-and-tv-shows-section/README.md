@@ -1,7 +1,9 @@
 # RapidMoviez Scrollable Popular Movies and TV Shows Section
 
 Userscript for changing the grid style of "Popular Movies and TV Shows" section of RapidMoviez to a scrollable list
- like the "Latest Episodes" section.
+ matching with the "Latest Episodes" section.
+ 
+ ![Preview](https://github.com/ni554n/userscripts/raw/master/art/RapidMoviez%20Scrollable%20Popular%20Movies%20and%20TV%20Shows%20Section.png)
 
 ## Requirement
 
@@ -27,7 +29,9 @@ Use any of these following links:
 - 2.0
   - Gets the title from the link if it is not provided.
 - 1.5
-  - It now matches the style from the "Latest Episodes" section.
+  - Now matches the style from the "Latest Episodes" section.
+- 1.0
+  - Initial implementation.
 
 ## Information
 

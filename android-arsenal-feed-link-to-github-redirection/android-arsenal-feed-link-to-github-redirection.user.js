@@ -18,7 +18,7 @@
 
 const labels = document.querySelectorAll("body > div.wrap.container > div > div > div.row.project-header > div:nth-child(1) > dl > dt");
 
-// Grab the Github link and forward
+// Grab the link and forward
 for (let i = labels.length - 1; i >= 0; i--) {
   const label = labels.item(i);
 

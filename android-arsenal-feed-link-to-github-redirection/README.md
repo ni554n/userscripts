@@ -24,9 +24,9 @@ Use any of these following links:
 ## Version History
 
 - 2.0
-  - Uses an optimized loop for determining the link which may be useful in the future.
+  - Uses an optimized loop for finding the link.
 - 1.0
-  - Uses hardcoded path for link value.
+  - Uses hardcoded paths for finding the link value.
 
 ## Information
 

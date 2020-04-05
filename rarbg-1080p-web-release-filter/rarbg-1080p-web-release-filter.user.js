@@ -1,7 +1,7 @@
 // ==UserScript==
 
 // @name                RARBG 1080p Web Release Filter
-// @description         Shows only 1080p Web releases on RARBG TV HD Episodes category (and search).
+// @description         Shows only 1080p Web releases on RARBG TV HD Episodes category (and search within that category).
 // @version             2.0
 
 // @namespace           io.github.ni554n

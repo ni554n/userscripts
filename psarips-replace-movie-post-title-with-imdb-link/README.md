@@ -1,6 +1,8 @@
 # PSARips Replace Movie Post Title with IMDb Link
 
-This userscript turns the title of the movie into an IMDb link on any PSARips Movie post.
+Userscript for turning any PSARips Movie post title into an IMDb link.
+
+![Preview](https://github.com/ni554n/userscripts/raw/master/art/PSARips%20Replace%20Movie%20Post%20Title%20with%20IMDb%20Link.png)
 
 ## Requirement
 
@@ -25,6 +27,8 @@ Use any of these following links:
 
 - 1.5
   - Added icons to the link for better clarity.
+- 1.0
+  - Initial implementation.
 
 ## Information
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 
 // @name                PSARips Replace Movie Post Title with IMDb Link
-// @description         Turns the title of the movie into an IMDb link on any PSARips Movie post.
+// @description         Turns any PSARips movie post title into an IMDb link.
 // @version             1.5
 
 // @namespace           io.github.ni554n

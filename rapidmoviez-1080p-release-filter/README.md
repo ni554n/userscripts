@@ -2,6 +2,8 @@
 
 Userscript for keeping only 1080p links on release page by filtering out other links.
 
+![Preview](https://github.com/ni554n/userscripts/raw/master/art/RapidMoviez%201080p%20Release%20Link%20Filter.png)
+
 ## Requirement
 
 Any userscript manager, such as:

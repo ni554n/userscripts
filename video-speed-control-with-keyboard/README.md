@@ -1,6 +1,6 @@
 # Video Speed Control with Keyboard
 
-A userscript for controlling any HTML5 video playback speed using these following shortcut keys:
+Userscript for controlling any HTML5 video playback speed using these following shortcut keys:
 
 | Key | Speed |
 | :---: | :---: |
@@ -37,9 +37,9 @@ Use any of these following links:
 - 3.0
   - No longer changes speed when the keypress is coming from any text editing field.
 - 2.0
-  - Changed to an event-based mechanism which is much more robust. Works on every website.
+  - Changed to a much more robust event-based mechanism. Now it works reliably on every website.
 - 1.0
-  - Initial implementation; does not work with dynamically loaded websites.
+  - Initial implementation.
 
 ## Information
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 
 // @name                RapidMoviez Scrollable Popular Movies and TV Shows Section
-// @description         Changing the grid style of "Popular Movies and TV Shows" section of RapidMoviez to a scrollable list like the "Latest Episodes" section.
+// @description         Changes the grid style of "Popular Movies and TV Shows" section of RapidMoviez to a scrollable list like the "Latest Episodes" section.
 // @version             2.0
 
 // @namespace           io.github.ni554n

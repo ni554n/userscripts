@@ -1,6 +1,8 @@
 # 1hack Hide COUPONS on Homepage
 
-Hide \[COUPON\] & \[COUPONS\] tagged posts from onehack.us homepage.
+Userscript for hiding \[COUPON\] & \[COUPONS\] tagged posts from onehack.us homepage.
+
+![Preview](https://github.com/ni554n/userscripts/raw/master/art/1hack%20Hide%20COUPONS%20on%20Homepage.png)
 
 ## Requirement
 
@@ -28,7 +30,7 @@ Use any of these following links:
 - 2.0
   - Filters topics added to the bottom of the list due to scrolling.
 - 1.0
-  - Works only on the first load.
+  - Initial implementation.
 
 ## Information
 

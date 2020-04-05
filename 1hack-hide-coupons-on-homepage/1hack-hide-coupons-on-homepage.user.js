@@ -1,7 +1,7 @@
 // ==UserScript==
 
 // @name                1hack Hide COUPONS on Homepage
-// @description         Hide [COUPON] & [COUPONS] tagged topics on onehack.us homepage.
+// @description         Hides [COUPON] & [COUPONS] tagged topics on onehack.us homepage.
 // @version             2.5
 
 // @namespace           io.github.ni554n
