@@ -32,12 +32,14 @@ Use any of these following links:
 
 ## Version History
 
+- 3.1
+  - Now retains the latest speed information of the player instead of always resetting to the default speed.
 - 3.0
   - No longer changes speed when the keypress is coming from any text editing field.
 - 2.0
   - Changed to an event-based mechanism which is much more robust. Works on every website.
 - 1.0
-  - Basic implementation; does not work with dynamically loaded websites.
+  - Initial implementation; does not work with dynamically loaded websites.
 
 ## Information
 

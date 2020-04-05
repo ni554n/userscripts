@@ -2,7 +2,7 @@
 
 // @name                Video Speed Control with Keyboard
 // @description         Control any HTML5 video playback speed by pressing shortcut keys. See source code comment for the shortcut keymap.
-// @version             3.0
+// @version             3.1
 
 // @namespace           io.github.ni554n
 // @include             *
@@ -37,7 +37,7 @@
 // Stores currently playing video element reference for changing the speed later.
 let video;
 
-// Stores currently selected speed. Also acts as default / initial playing speed.
+// Stores currently selected speed. Also acts as default / initial playback speed for all video.
 let speed = 1;
 
 /* The "playing" event always fires automatically at the start of a video but "play" event is not.
@@ -59,6 +59,7 @@ function restoreSpeed(event) {
 
 function captureActiveVideoElement(event) {
   video = event.target;
+  speed = video.playbackRate;
 }
 
 function handlePressedKey(event) {
