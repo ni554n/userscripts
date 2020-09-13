@@ -2,7 +2,7 @@
 
 // @name                PSARips Replace Movie Post Title with IMDb Link
 // @description         Turns any PSARips movie post title into an IMDb link.
-// @version             1.5
+// @version             1.6
 
 // @namespace           io.github.ni554n
 // @match               https://psarips.*/movie/*
@@ -24,5 +24,5 @@ const [imdbLink] = document.getElementsByClassName("sp-body folded")[0].innerTex
 
 if (imdbLink) {
   const [movieTitle] = document.getElementsByClassName("post-title entry-title");
-  movieTitle.innerHTML = `<a href="${imdbLink}">${imdbIcon} ${movieTitle.innerText} ${linkIcon}</a>`;
+  movieTitle.innerHTML = `<a href="${imdbLink}" target="_blank">${imdbIcon} ${movieTitle.innerText} ${linkIcon}</a>`;
 }
