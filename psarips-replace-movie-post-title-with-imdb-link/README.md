@@ -25,6 +25,8 @@ Use any of these following links:
 
 ## Version History
 
+- 1.7
+  - Added psa.one official mirror domain
 - 1.6
   - Link will now open in a new tab.
 - 1.5
