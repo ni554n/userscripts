@@ -1,6 +1,6 @@
-# PSARips Replace Movie Post Title with IMDb Link
+# PSARips Replace Post Titles with IMDb Links
 
-Userscript for turning any PSARips Movie post title into an IMDb link.
+Userscript for turning a PSARips Movie post title into an IMDb link and TV Show post title into an IMDb search link.
 
 ![Preview](https://github.com/ni554n/userscripts/raw/master/art/PSARips%20Replace%20Movie%20Post%20Title%20with%20IMDb%20Link.png)
 
@@ -25,8 +25,10 @@ Use any of these following links:
 
 ## Version History
 
+- 2.0
+  - TV Show post title will now become IMDb search link.
 - 1.7
-  - Added psa.one official mirror domain
+  - Added psa.one official mirror domain.
 - 1.6
   - Link will now open in a new tab.
 - 1.5
