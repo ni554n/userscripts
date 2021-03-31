@@ -19,8 +19,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/psarips-replace-movie-post-title-with-imdb-link/psarips-replace-movie-post-title-with-imdb-link.user.js)
-- [Greasy Fork](https://greasyfork.org/en/scripts/398896-psarips-replace-movie-post-title-with-imdb-link)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/psarips-replace-post-titles-with-imdb-links/psarips-replace-post-titles-with-imdb-links.user.js)
+- [Greasy Fork](https://greasyfork.org/en/scripts/398896-psarips-replace-post-titles-with-imdb-links)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/PSARips_Replace_Movie_Post_Title_with_IMDb_Link)
 
 ## Version History
