@@ -25,6 +25,8 @@ Use any of these following links:
 
 ## Version History
 
+- 2.1
+  - Replaced inactivated psa.one domain with new x265.club
 - 2.0
   - TV Show post title will now become IMDb search link.
 - 1.7

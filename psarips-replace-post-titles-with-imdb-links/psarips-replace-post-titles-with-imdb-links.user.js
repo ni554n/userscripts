@@ -2,13 +2,13 @@
 
 // @name                PSARips Replace Post Titles with IMDb Links
 // @description         Turns a PSARips Movie post title into an IMDb link and TV Show post title into an IMDb search link.
-// @version             2.0
+// @version             2.1
 
 // @namespace           io.github.ni554n
 // @match               https://psarips.*/movie/*
 // @match               https://psarips.*/tv-show/*
-// @match               https://psa.*/movie/*
-// @match               https://psa.*/tv-show/*
+// @match               https://x265.club/movie/*
+// @match               https://x265.club/tv-show/*
 
 // @supportURL          https://github.com/ni554n/userscripts/issues
 // @license             MIT
