@@ -1,16 +1,29 @@
 # Userscripts
 
-Collection of some random userscripts I have written to make my life easier.
+![Language](https://img.shields.io/badge/language-JavaScript-informational)
+![Total Installs](https://img.shields.io/badge/installs-1404%2B-important)
+![License](https://img.shields.io/badge/license-MIT-success)
+
+Collection of useful userscripts to enhance the user experience of various websites.
 
 | Works On | Script | Preview |
 | --- | --- | :---: |
-| Any website | [Video Speed Control with Keyboard](https://github.com/ni554n/userscripts/tree/master/video-speed-control-with-keyboard) <br/>Control any HTML5 video playback speed using keyboard shortcuts | - |
-| [RARBG](https://rarbgto.org) | [RARBG 1080p Web Release Filter](https://github.com/ni554n/userscripts/tree/master/rarbg-1080p-web-release-filter) <br/>Only show _1080p Web_ releases on RARBG TV HD Episodes category | <img src="https://github.com/ni554n/userscripts/raw/master/art/RARBG%201080p%20Web%20Release%20Filter.png" width="500" /> |
-| [PSARips](http://psarips.com) | [PSARips Replace Post Titles with IMDb Links](https://github.com/ni554n/userscripts/tree/master/psarips-replace-post-titles-with-imdb-links) <br/>Turns a PSARips Movie post title into an IMDb link and TV Show post title into an IMDb search link | <img src="https://github.com/ni554n/userscripts/raw/master/art/PSARips%20Replace%20Movie%20Post%20Title%20with%20IMDb%20Link.png" width="500" /> |
-| [RapidMoviez](http://rmz.cr) | [RapidMoviez Scrollable Popular Movies and TV Shows Section](https://github.com/ni554n/userscripts/tree/master/rapidmoviez-scrollable-popular-movies-and-tv-shows-section) <br/>Changes the grid style of "Popular Movies and TV Shows" section to a scrollable list matching with the "Latest Episodes" section | <img src="https://github.com/ni554n/userscripts/raw/master/art/RapidMoviez%20Scrollable%20Popular%20Movies%20and%20TV%20Shows%20Section.png" width="500" /> |
-| | [RapidMoviez 1080p Release Link Filter](https://github.com/ni554n/userscripts/tree/master/rapidmoviez-1080p-release-filter) <br/>Keeps only the 1080p links on release page by filtering out other links | <img src="https://github.com/ni554n/userscripts/raw/master/art/RapidMoviez%201080p%20Release%20Link%20Filter.png" width="500" /> |
-| [Android Arsenal](https://android-arsenal.com) | [Android Arsenal Feed Link to Github Redirection](https://github.com/ni554n/userscripts/tree/master/android-arsenal-feed-link-to-github-redirection) <br/> Redirects Android Arsenal library links to Github automatically if it is coming from the RSS Feed | - |
-| [1Hack](https://onehack.us) | [1hack Hide COUPONS on Homepage](https://github.com/ni554n/userscripts/tree/master/1hack-hide-coupons-on-homepage) <br/>Hides [COUPON] & [COUPONS] tagged posts on homepage | <img src="https://github.com/ni554n/userscripts/raw/master/art/1hack%20Hide%20COUPONS%20on%20Homepage.png" width="500" /> |
+| All website | [Video Speed Control with Keyboard](all-website/video-speed-control-with-keyboard) <br/> Controls any HTML5 video playback speed using keyboard shortcuts. | - |
+| [Android Arsenal](https://android-arsenal.com) | [Android Arsenal Feed Link to Github Redirection](android-arsenal/feed-link-to-github-redirection) <br/> Redirects the Android Arsenal library links to Github automatically if it is coming from the RSS Feed. | - |
+| [Facebook](https://facebook.com) | [Fix Double Scrollbar on Messenger](facebook/fix-double-scrollbar) <br/> Removes the useless additional scrollbar that apprears on the fullscreen Facebook Chats / Messenger. | - |
+| [Fiverr](https://www.fiverr.com) | [Remove All Buyer Requests with One Click](fiverr/remove-all-buyer-requests-with-one-click) <br/> Adds a "Remove All Requests" button on each page of the Buyer Request Table. | <img src=".images/fiverr-remove-all-buyer-requests-with-one-click.png" width="500" /> |
+| [Google Drive](https://drive.google.com) | [Default Text in Search Field](google-drive/default-text-in-search-field/) <br/> Pre-populate Google Drive search field with some custom text (default: "* type:folder") for easier searching. | <img src=".images\google-drive-highlight-1080p-releases.png" width="500" /> |
+| | [Google Drive - Highlight 1080p Releases](google-drive/highlight-1080p-releases/) <br/> Highlights some text ("1080p" by default) in the Google Drive search results. | <img src=".images/google-drive-default-text-in-search-field.png" width="500" /> |
+| [IMDb](https://imdb.com) | [Transform Titles to RARBG Links](imdb/transform-titles-to-rarbg-links/) <br/> Transforms the IMDb post title with the RARBG catelog link. | <img src=".images/imdb-transform-titles-to-rarbg-links.png" width="500" /> |
+| [PSARips](http://psarips.com) | [Replace Post Titles with IMDb Links](psarips/replace-post-titles-with-imdb-links/) <br/> Turns a PSARips Movie or TV Show post title into a direct IMDb link or IMDb search link. | <img src=".images/psarips-replace-post-titles-with-imdb-links.png" width="500" /> |
+| [RapidMoviez](http://rmz.cr) | [1080p Release Filter](rapidmoviez/1080p-release-filter/) <br/> Keeps only the 1080p links on release page by filtering out the other links. | <img src=".images/rapidmoviez-1080p-release-filter.png" width="500" /> |
+| | [Scrollable Popular Movies and TV Shows Section](rapidmoviez/scrollable-popular-movies-and-tv-shows-section/) <br/> Changes the grid style of "Popular Movies and TV Shows" section of RapidMoviez to a scrollable list mimicking the "Latest Episodes" section. | <img src=".images/rapidmoviez-scrollable-popular-movies-and-tv-shows-section.png" width="500" /> |
+| [RARBG](https://rarbgto.org) | [1080p Web Release Filter](rarbg/1080p-web-release-filter/) <br/> Keeps only the 1080p WEB releases on the RARBG TV HD Episodes category. | <img src=".images/rarbg-1080p-web-release-filter.png" width="500" /> |
+| | [Friendly Release Time Format](rarbg/friendly-release-time-format/) <br/> Transforms the default "Added" time format into a human readable relative time format. | <img src=".images/rarbg-friendly-release-time-format.png" width="500" /> |
+
+## Archived
+
+- [1hack - Hide COUPONS on Homepage](.archive/1hack/hide-coupons-on-homepage) <br/> Hides [COUPON] & [COUPONS] tagged posts on the homepage.
 
 ## Information
 
