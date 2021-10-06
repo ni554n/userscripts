@@ -26,7 +26,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/all-website/video-speed-control-with-keyboard/video-speed-control-with-keyboard.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/all-website/video-speed-control-with-keyboard/script.user.js)
 - [Greasy Fork](https://greasyfork.org/en/scripts/398548-video-speed-control-with-keyboard)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/Video_Speed_Control_with_Keyboard)
 

@@ -19,7 +19,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/transform-titles-to-rarbg-links/imdb-transform-titles-to-rarbg-links.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/transform-titles-to-rarbg-links/script.user.js)
 - [Greasy Fork](https://greasyfork.org/en/scripts/433480-imdb-transform-titles-to-rarbg-links)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/IMDb_-_Transform_Titles_to_RARBG_Links)
 

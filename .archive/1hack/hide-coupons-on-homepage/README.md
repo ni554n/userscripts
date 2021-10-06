@@ -21,7 +21,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/.archive/1hack/hide-coupons-on-homepage/1hack-hide-coupons-on-homepage.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/.archive/1hack/hide-coupons-on-homepage/script.user.js)
 - [Greasy Fork](https://greasyfork.org/en/scripts/398973-1hack-hide-coupons-on-homepage)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/1hack_Hide_COUPONS_on_Homepage)
 

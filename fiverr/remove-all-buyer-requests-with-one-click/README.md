@@ -19,7 +19,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/fiverr/remove-all-buyer-requests-with-one-click/fiverr-remove-all-buyer-requests-with-one-click.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/fiverr/remove-all-buyer-requests-with-one-click/script.user.js)
 - [Greasy Fork](https://greasyfork.org/en/scripts/433500-fiverr-remove-all-buyer-requests-with-one-click)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/Fiverr_-_Remove_All_Buyer_Requests_with_One_Click)
 

@@ -17,7 +17,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/facebook/fix-double-scrollbar/facebook-fix-double-scrollbar.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/facebook/fix-double-scrollbar/script.user.js)
 - [Greasy Fork](https://greasyfork.org/en/scripts/433505-facebook-fix-double-scrollbar-on-messenger)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/Facebook_-_Fix_Double_Scrollbar_on_Messenger)
 

@@ -19,7 +19,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/rapidmoviez/1080p-release-filter/rapidmoviez-1080p-release-filter.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/rapidmoviez/1080p-release-filter/script.user.js)
 - [Greasy Fork](https://greasyfork.org/en/scripts/398908-rapidmoviez-1080p-release-link-filter)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/RapidMoviez_1080p_Release_Link_Filter)
 
