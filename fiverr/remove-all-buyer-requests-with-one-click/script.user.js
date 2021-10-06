@@ -9,6 +9,7 @@
 // @grant               none
 
 // @supportURL          https://github.com/ni554n/userscripts/issues
+// @license             MIT
 
 // @author              Nissan Ahmed
 // @homepageURL         https://ni554n.github.io/
