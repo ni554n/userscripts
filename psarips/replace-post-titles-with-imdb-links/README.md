@@ -25,16 +25,18 @@ Use any of these following links:
 
 ## Version History
 
+- 2.3
+  - IMDb search will now show only the TV related titles.
 - 2.2
   - Improved script logic.
 - 2.1
-  - Replaced inactivated psa.one domain with new x265.club
+  - Replaced inactivated psa.one domain with new x265.club.
 - 2.0
-  - TV Show post title will now become IMDb search link.
+  - Added IMDb search support on the TV Show post titles.
 - 1.7
-  - Added psa.one official mirror domain.
+  - Added the psa.one official mirror domain.
 - 1.6
-  - Link will now open in a new tab.
+  - IMDb link will now open in a new tab.
 - 1.5
   - Added icons to the link for better clarity.
 - 1.0
