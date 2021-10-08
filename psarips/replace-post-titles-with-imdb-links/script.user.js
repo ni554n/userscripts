@@ -37,7 +37,7 @@ if (imdbMovieLink) {
 } else {
   // PSARips doesn't provide the IMDb links for its TV Show releases.
   // Create a IMDb search link instead.
-  imdbLink = `https://www.imdb.com/find?q=${encodeURIComponent(releaseTitle)}`;
+  imdbLink = `https://www.imdb.com/find?s=tt&ttype=tv&q=${encodeURIComponent(releaseTitle)}`;
 }
 
 // Icons are from the bundled Font Awesome library.
