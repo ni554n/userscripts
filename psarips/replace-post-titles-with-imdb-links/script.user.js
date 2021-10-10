@@ -2,7 +2,7 @@
 
 // @name                PSARips Replace Post Titles with IMDb Links
 // @description         Turns a PSARips Movie or TV Show post title into a direct IMDb link or IMDb search link.
-// @version             2.2
+// @version             2.3
 
 // @namespace           io.github.ni554n
 // @match               https://psarips.*/movie/*
@@ -37,7 +37,7 @@ if (imdbMovieLink) {
 } else {
   // PSARips doesn't provide the IMDb links for its TV Show releases.
   // Create a IMDb search link instead.
-  imdbLink = `https://www.imdb.com/find?q=${encodeURIComponent(releaseTitle)}`;
+  imdbLink = `https://www.imdb.com/find?s=tt&ttype=tv&q=${encodeURIComponent(releaseTitle)}`;
 }
 
 // Icons are from the bundled Font Awesome library.
