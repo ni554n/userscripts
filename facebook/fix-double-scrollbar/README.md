@@ -2,7 +2,7 @@
 
 Userscript for removing the useless additional scrollbar that apprears on the fullscreen Facebook Chats / Messenger.
 
-![Preview](../../.images/facebook-fix-double-scrollbar.jpg)
+![Preview](https://github.com/ni554n/userscripts/raw/master/.images/facebook-fix-double-scrollbar.jpg)
 
 ## Requirement
 
