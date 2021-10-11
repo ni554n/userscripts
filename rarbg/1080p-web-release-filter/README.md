@@ -25,6 +25,8 @@ Use any of these following links:
 
 ## Version History
 
+- 2.2
+  - The script will run on both HTTP / HTTPS protocol.
 - 2.1
   - No changes. Refactored the source code only.
 - 2.0

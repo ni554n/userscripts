@@ -2,10 +2,10 @@
 
 // @name                RARBG - Friendly Release Time Format
 // @description         Transforms the default "Added" time format into a human readable relative time format.
-// @version             2.0
+// @version             2.1
 
 // @namespace           io.github.ni554n
-// @match               https://rarbgto.org/torrents.php*
+// @match               http*://rarbgto.org/torrents.php*
 
 // @supportURL          https://github.com/ni554n/userscripts/issues
 // @license             MIT
@@ -21,7 +21,7 @@ const [releaseTable] = document.getElementsByClassName("lista2t");
 if (!releaseTable) throw new Error("Failed to get a reference of the release table.");
 
 // Extract the time zone information from the date time provided on footer.
-const footer = document.querySelector("a[href='/dmca_info.php']")?.parentElement;
+const footer = document.querySelector(`a[href="/dmca_info.php"]`)?.parentElement;
 
 if (!footer) throw new Error("Failed to get a reference of the website footer.");
 
@@ -39,7 +39,7 @@ for (let i = 1; i < releaseTable.rows.length; i++) {
   const addedTimeColumn = row.cells[2];
 
   const addedTimeString = addedTimeColumn.innerText.trim();
-  const addedTimeDate = new Date(`${addedTimeString} ${timeZoneString}`);
+  const addedTimeDate = new Date(`${addedTimeString.replace(" ", "T")}${timeZoneString}`);
 
   addedTimeColumn.innerText = `${formatAsRelativeTime(addedTimeDate)} ago`;
 }

@@ -25,6 +25,8 @@ Use any of these following links:
 
 ## Version History
 
+- 2.1
+  - Fixed NaN time formatting issue on Firefox.
 - 2.0
   - Updated the time format.
 - 1.0

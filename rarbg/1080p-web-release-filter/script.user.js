@@ -2,11 +2,11 @@
 
 // @name                RARBG 1080p Web Release Filter
 // @description         Keeps only the 1080p WEB releases on the RARBG TV HD Episodes category.
-// @version             2.1
+// @version             2.2
 
 // @namespace           io.github.ni554n
-// @match               https://rarbgto.org/torrents.php?*category*=41*
-// @match               https://rarbgto.org/torrents.php?imdb=*
+// @match               http*://rarbgto.org/torrents.php?*category*=41*
+// @match               http*://rarbgto.org/torrents.php?imdb=*
 
 // @supportURL          https://github.com/ni554n/userscripts/issues
 // @license             MIT
