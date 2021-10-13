@@ -1,8 +1,8 @@
-# IMDb - Transform Titles to RARBG Links
+# IMDb - Transform Titles into RARBG Links
 
-Userscript for transforming the IMDb post title with the RARBG catelog link.
+Userscript for replacing the IMDb post titles with the RARBG catalog links.
 
-![Preview](https://github.com/ni554n/userscripts/raw/master/.images/imdb-transform-titles-to-rarbg-links.png)
+![Preview](https://github.com/ni554n/userscripts/raw/master/.images/imdb-transform-titles-into-rarbg-links.png)
 
 ## Requirement
 
@@ -19,7 +19,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/transform-titles-to-rarbg-links/script.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/transform-titles-into-rarbg-links/script.user.js)
 - [Greasy Fork](https://greasyfork.org/en/scripts/433480-imdb-transform-titles-to-rarbg-links)
 - [OpenUserJS](https://openuserjs.org/scripts/ni554n/IMDb_-_Transform_Titles_to_RARBG_Links)
 

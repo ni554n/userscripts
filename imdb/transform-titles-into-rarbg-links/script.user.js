@@ -1,7 +1,7 @@
 // ==UserScript==
 
 // @name                IMDb - Transform Titles to RARBG Links
-// @description         Transforms the IMDb post title with the RARBG catelog link.
+// @description         Replaces the IMDb post titles with the RARBG catalog links.
 // @version             2.0
 
 // @namespace           io.github.ni554n
