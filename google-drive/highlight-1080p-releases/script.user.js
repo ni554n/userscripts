@@ -2,7 +2,7 @@
 
 // @name                Google Drive - Highlight Text in Search
 // @description         Highlights some text ("1080p" by default) in the Google Drive search results.
-// @version             2.0
+// @version             2.5
 
 // @namespace           io.github.ni554n
 // @match               https://drive.google.com/*
@@ -21,66 +21,74 @@
 const HIGHLIGHT = "1080p";
 
 // Highlighting color can be any CSS color name or hex value.
-const HIGHLIGHT_BG_COLOR = "aquamarine";
+const HIGHLIGHT_TEXT_COLOR = "lightseagreen";
 
-const isLogEnabled = false;
+const isLogEnabled = true;
 
 const titleElement = document.head.getElementsByTagName("title")[0];
 const mainPageDiv = document.getElementById("drive_main_page");
 
-// Google Drive is an SPA where page navigation is done dynamically via javascript.
-// Page navigations can be detected by observing the <title> changes.
-new MutationObserver(observePageNavigation).observe(
-  titleElement,
-  { childList: true },
-);
+let searchResultUpdateObserver;
 
-let count = false;
+// Don't know why but any userscript on Google Drive executes twice.
+// First time normally but on the second call, every getElementsBy*() returns null.
+if (titleElement && mainPageDiv) {
+  // Google Drive is an SPA where page navigation is done dynamically via javascript.
+  // Page navigations can be detected by observing the <title> changes.
+  new MutationObserver(observePageNavigation).observe(
+    titleElement,
+    { childList: true },
+  );
+}
 
 function observePageNavigation() {
   log(`Page Route Changed -> ${titleElement.text}`);
 
-  count = false;
+  // No longer valid as page route has been changed.
+  searchResultUpdateObserver?.disconnect();
 
-  // Drive adds the search results dynamically somewhere in the subtree of the mainPageDiv.
-  new MutationObserver(observeForResultLoading).observe(
+  if (titleElement.innerText !== "Search results - Google Drive") return;
+
+  // Drive adds a search result list dynamically somewhere in the subtree of mainPageDiv.
+  new MutationObserver(waitForResultListAttachment).observe(
     mainPageDiv,
     { childList: true, subtree: true },
   );
 }
 
-function observeForResultLoading(_, observer) {
-  if (count) return;
-
-  const searchResultList = document.querySelector(`div[data-view-type="12"]`).parentElement;
+function waitForResultListAttachment(_, mainPageDivObserver) {
+  const searchResultList = document.querySelector(`div[data-view-type="12"]`)?.parentElement;
 
   if (!searchResultList) {
-    log("No search result list has been attached yet!");
+    log("No search result list has been attached!");
     return;
   }
 
-  log(`SearchResultList found! Observing div[data-view-type="12"] childList changes...`);
+  log(`Starting to observe Search Result List for dynamic addition caused by infinite scrolling.`);
 
-  new MutationObserver(highlightMatched).observe(
+  searchResultUpdateObserver = new MutationObserver(searchResultUpdated);
+
+  searchResultUpdateObserver.observe(
     searchResultList,
     { childList: true, subtree: true },
   );
 
-  count = true;
-
-  log(`Disconnecting "drive_main_page" div observer...`);
-  observer.disconnect();
+  // As a dynamic Result List update observer has already been set,
+  // this #drive_main_page observer is no longer required.
+  mainPageDivObserver.disconnect();
 }
 
-function highlightMatched(mutationList) {
-  log("In highlighted matched!");
+function searchResultUpdated(mutationList) {
+  log(`Search Result List updated with ${mutationList.length} changes.`);
 
   mutationList?.forEach((mutation) => {
     mutation.addedNodes.forEach((node) => {
       const titleSpan = node.querySelector(`span[data-is-doc-name="true"]`);
 
-      if (titleSpan?.innerText?.includes(HIGHLIGHT)) {
-        node.style.backgroundColor = HIGHLIGHT_BG_COLOR;
+      const isTitleHighlighted = titleSpan?.style?.color === HIGHLIGHT_TEXT_COLOR;
+
+      if (!isTitleHighlighted && titleSpan?.innerText?.includes(HIGHLIGHT)) {
+        titleSpan.style.color = HIGHLIGHT_TEXT_COLOR;
       }
     });
   });

@@ -25,6 +25,9 @@ Use any of these following links:
 
 ## Version History
 
+- 2.5
+  - Results will be correctly highlighted after sorting method change.
+  - Only the text will be highlighted in a color instead of the full row.
 - 2.0
   - Improve highlighting logic.
 - 1.0
