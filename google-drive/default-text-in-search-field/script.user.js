@@ -2,7 +2,7 @@
 
 // @name                Google Drive - Default Text in Search Field
 // @description         Pre-populate Google Drive search field with some custom text (default: "* type:folder") for easier searching.
-// @version             1.0
+// @version             1.1
 
 // @namespace           io.github.ni554n
 // @match               https://drive.google.com/*
@@ -23,7 +23,10 @@ const INPUT_PLACEHOLDER = "* type:folder";
 const isLogEnabled = false;
 
 const searchInputElement = document.querySelector(`input[aria-label="Search in Drive"]`);
+const titleElement = document.head.getElementsByTagName("title")[0];
 
+// Don't know why but any userscript on Google Drive executes twice.
+// First time normally but on the second call, every getElementsBy*() returns null.
 if (searchInputElement) {
   // Pre-fill the input for the first load.
   searchInputElement.value ||= INPUT_PLACEHOLDER;

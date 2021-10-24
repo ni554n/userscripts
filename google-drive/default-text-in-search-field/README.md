@@ -25,6 +25,8 @@ Use any of these following links:
 
 ## Version History
 
+- 1.1
+  - Search text will now show up on all pages.
 - 1.0
   - Initial implementation.
 
