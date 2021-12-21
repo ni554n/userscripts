@@ -2,13 +2,13 @@
 
 // @name                PSARips Replace Post Titles with IMDb Links
 // @description         Turns a PSARips Movie or TV Show post title into a direct IMDb link or IMDb search link.
-// @version             2.3
+// @version             2.4
 
 // @namespace           io.github.ni554n
 // @match               https://psarips.*/movie/*
 // @match               https://psarips.*/tv-show/*
-// @match               https://psa.one/movie/*
-// @match               https://psa.one/tv-show/*
+// @match               https://psa.*/movie/*
+// @match               https://psa.*/tv-show/*
 // @match               https://x265.club/movie/*
 // @match               https://x265.club/tv-show/*
 
@@ -24,21 +24,19 @@
 const [postTitleH1] = document.getElementsByClassName("post-title entry-title");
 const releaseTitle = postTitleH1?.innerText;
 
-if (!postTitleH1) throw new Error("Failed to get the post title!")
-
-let imdbLink;
+if (!postTitleH1) throw new Error("Failed to get the post title!");
 
 // Extract the IMDb link from the movie release info section.
-const [imdbMovieLink] = document.getElementsByClassName("sp-body folded")[0]?.innerText
-  .match(/https:\/\/www.imdb.com\/title\/\w+\//) ?? [];
+const [imdbMovieLink] =
+  document
+    .getElementsByClassName("sp-body folded")[0]
+    ?.innerText.match(/https:\/\/www.imdb.com\/title\/\w+\//) ?? [];
 
-if (imdbMovieLink) {
-  imdbLink = imdbMovieLink;
-} else {
-  // PSARips doesn't provide the IMDb links for its TV Show releases.
-  // Create a IMDb search link instead.
-  imdbLink = `https://www.imdb.com/find?s=tt&ttype=tv&q=${encodeURIComponent(releaseTitle)}`;
-}
+const imdbLink = imdbMovieLink
+  ? imdbMovieLink
+  : `https://www.imdb.com/find?s=tt&ttype=tv&q=${encodeURIComponent(
+      releaseTitle,
+    )}`;
 
 // Icons are from the bundled Font Awesome library.
 const imdbIcon = `<i class="fab fa-imdb" style="font-style: normal;"></i>`;

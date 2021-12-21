@@ -25,6 +25,8 @@ Use any of these following links:
 
 ## Version History
 
+- 2.4
+  - Added support for any psa.* domains.
 - 2.3
   - IMDb search will now show only the TV related titles.
 - 2.2
