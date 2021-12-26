@@ -17,9 +17,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/398914-android-arsenal-feed-link-to-github-redirection) (Recommended)
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/android-arsenal/feed-link-to-github-redirection/script.user.js)
-- [Greasy Fork](https://greasyfork.org/en/scripts/398914-android-arsenal-feed-link-to-github-redirection)
-- [OpenUserJS](https://openuserjs.org/scripts/ni554n/Android_Arsenal_Feed_Link_to_Github_Redirection)
 
 ## Version History
 

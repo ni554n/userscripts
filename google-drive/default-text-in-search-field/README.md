@@ -19,9 +19,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/433481-google-drive-default-text-in-search-field) (Recommended)
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/google-drive/default-text-in-search-field/script.user.js)
-- [Greasy Fork](https://greasyfork.org/en/scripts/433481-google-drive-default-text-in-search-field)
-- [OpenUserJS](https://openuserjs.org/scripts/ni554n/Google_Drive_-_Default_Text_in_Search_Field)
 
 ## Version History
 

@@ -19,9 +19,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/398892-rarbg-1080p-web-release-filter) (Recommended)
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/rarbg/1080p-web-release-filter/script.user.js)
-- [Greasy Fork](https://greasyfork.org/en/scripts/398892-rarbg-1080p-web-release-filter)
-- [OpenUserJS](https://openuserjs.org/scripts/ni554n/RARBG_1080p_Web_Release_Filter)
 
 ## Version History
 

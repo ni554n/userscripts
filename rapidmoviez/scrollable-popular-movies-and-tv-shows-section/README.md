@@ -19,9 +19,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/398906-rapidmoviez-scrollable-popular-movies-and-tv-shows-section) (Recommended)
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/rapidmoviez/scrollable-popular-movies-and-tv-shows-section/script.user.js)
-- [Greasy Fork](https://greasyfork.org/en/scripts/398906-rapidmoviez-scrollable-popular-movies-and-tv-shows-section)
-- [OpenUserJS](https://openuserjs.org/scripts/ni554n/RapidMoviez_Scrollable_Popular_Movies_and_TV_Shows_Section)
 
 ## Version History
 

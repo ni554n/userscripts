@@ -19,9 +19,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/433458-rarbg-friendly-release-time-format) (Recommended)
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/rarbg/friendly-release-time-format/script.user.js)
-- [Greasy Fork](https://greasyfork.org/en/scripts/433458-rarbg-friendly-release-time-format)
-- [OpenUserJS](https://openuserjs.org/scripts/ni554n/RARBG_-_Friendly_Release_Time_Format)
 
 ## Version History
 
