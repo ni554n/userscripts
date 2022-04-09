@@ -2,7 +2,7 @@
 
 // @name                IMDb - Transform Titles to RARBG Links
 // @description         Replaces the IMDb post titles with the RARBG catalog links.
-// @version             2.0
+// @version             2.1
 
 // @namespace           io.github.ni554n
 // @match               https://www.imdb.com/title/*
@@ -17,7 +17,9 @@
 
 // ==/UserScript==
 
-const titleElement = document.querySelector(`body h1[class*="TitleHeader__TitleText"]`);
+const titleElement = document.querySelector(
+  `body h1[data-testid="hero-title-block__title"]`,
+);
 
 if (!titleElement) {
   console.warn("Failed to get the reference of the title.");
