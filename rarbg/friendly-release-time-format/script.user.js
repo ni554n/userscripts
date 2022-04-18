@@ -2,10 +2,11 @@
 
 // @name                RARBG - Friendly Release Time Format
 // @description         Transforms the default "Added" time format into a human readable relative time format.
-// @version             2.1
+// @version             2.2
 
 // @namespace           io.github.ni554n
 // @match               http*://rarbgto.org/torrents.php*
+// @match               http*://rarbgmirror.com/torrents.php*
 
 // @supportURL          https://github.com/ni554n/userscripts/issues
 // @license             MIT
