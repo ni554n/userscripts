@@ -24,14 +24,14 @@ Use any of these following links:
 
 ## Version History
 
+- 2.3
+  - Fixed filtering uppercase texts, such as "1080P".
 - 2.2
-  - The script will run on both HTTP / HTTPS protocol.
+  - The script now runs on both HTTP / HTTPS protocol.
 - 2.1
   - No changes. Refactored the source code only.
 - 2.0
-  - Added WEB filter in additional to 1080p filter.
-- 1.5
-  - Added filtering support on the search page.
+  - Added "WEB" filter in addition to 1080p filter.
 - 1.0
   - Initial release.
 
