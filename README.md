@@ -1,7 +1,7 @@
 # Userscripts
 
 ![Language](https://img.shields.io/badge/language-JavaScript-informational)
-![Total Installs](https://img.shields.io/badge/installs-1640%2B-important)
+![Total Installs](https://img.shields.io/badge/installs-3k%2B-important)
 ![License](https://img.shields.io/badge/license-MIT-success)
 
 Collection of some useful userscripts I've written to enhance the user experience of various websites.
@@ -10,7 +10,7 @@ Collection of some useful userscripts I've written to enhance the user experienc
 | --- | --- | :---: |
 | All website | [Video Speed Control with Keyboard](all-website/video-speed-control-with-keyboard) <br/> Controls any HTML5 video playback speed using keyboard shortcuts. | - |
 | [Android Arsenal](https://android-arsenal.com) | [Feed Link to Github Redirection](android-arsenal/feed-link-to-github-redirection) <br/> Redirects the Android Arsenal library links to Github automatically if it is coming from the RSS Feed. | - |
-| [Facebook](https://facebook.com) | [Fix Double Scrollbar on Messenger](facebook/fix-double-scrollbar) <br/> Removes the useless additional scrollbar that apprears on the fullscreen Facebook Chats / Messenger. | <img src=".images/facebook-fix-double-scrollbar.jpg" width="500" /> |
+| [Facebook](https://facebook.com) | [Fix Double Scrollbar on Messenger](facebook/fix-double-scrollbar) <br/> Removes the useless additional scrollbar that appears on the full-screen Facebook Chats / Messenger. | <img src=".images/facebook-fix-double-scrollbar.jpg" width="500" /> |
 | [Fiverr](https://www.fiverr.com) | [Remove All Buyer Requests with One Click](fiverr/remove-all-buyer-requests-with-one-click) <br/> Adds a "Remove All Requests" button on each page of the Buyer Request Table. | <img src=".images/fiverr-remove-all-buyer-requests-with-one-click.png" width="500" /> |
 | [Google Drive](https://drive.google.com) | [Default Text in Search Field](google-drive/default-text-in-search-field/) <br/> Pre-populate Google Drive search field with some custom text (default: "* type:folder") for easier searching. | <img src=".images/google-drive-default-text-in-search-field.png" width="500" /> |
 | [IMDb](https://imdb.com) | [Transform Titles into RARBG Links](imdb/transform-titles-into-rarbg-links/) <br/> Replaces the IMDb post titles with the RARBG catalog links. | <img src=".images/imdb-transform-titles-into-rarbg-links.png" width="500" /> |

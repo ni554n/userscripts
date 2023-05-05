@@ -1,8 +1,9 @@
 {
-  "cSpell.words": [
+  "words": [
     "allrls",
     "epicontainer",
     "Fiverr",
+    "Greasemonkey",
     "imdb",
     "lista",
     "navigations",
@@ -10,7 +11,10 @@
     "rapidmoviez",
     "RARBG",
     "rarbgto",
-    "testid"
-  ],
-  "javascript.validate.enable": false
+    "Tampermonkey",
+    "testid",
+    "Userscript",
+    "Userscripts",
+    "Violentmonkey"
+  ]
 }

@@ -1,0 +1,12 @@
+lockfileVersion: '6.0'
+
+devDependencies:
+  '@violentmonkey/types':
+    specifier: 0.1.5
+    version: 0.1.5
+
+packages:
+
+  /@violentmonkey/types@0.1.5:
+    resolution: {integrity: sha512-pDj3TndOfXRWuyRLVlGCZbXDqh7L/Ca3qO8TDUWTtSuUPF+PkNKbMwuxPGrqmRFXn3V0hXp4wjCwzrDWyJCYiw==}
+    dev: true
