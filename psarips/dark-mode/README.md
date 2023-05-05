@@ -20,7 +20,7 @@ Any userscript manager, such as:
 Use any of these following links:
 
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/psarips/dark-mode/script.user.js)
-- [**Greasy Fork**]() (Recommended)
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/465615-psarips-dark-mode) (Recommended)
 
 ## Version History
 
