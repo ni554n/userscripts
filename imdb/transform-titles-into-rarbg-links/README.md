@@ -24,12 +24,14 @@ Use any of these following links:
 
 ## Version History
 
+- 2.2
+  - Updated title selector
 - 2.1
-  - Fixed the title not linking to RARBG due to the changes in IMDb source format.
+  - Fixed the title not linking to RARBG due to the changes in IMDb source format
 - 2.0
-  - Fixed the title reversion bug that happens because of the dynamic updates.
+  - Fixed the title reversion bug that happens because of the dynamic updates
 - 1.0
-  - Initial implementation.
+  - Initial implementation
 
 ## Information
 
