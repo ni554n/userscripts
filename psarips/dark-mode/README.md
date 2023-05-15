@@ -1,6 +1,6 @@
 # PSARips - Dark Mode
 
-Userscript for dark theme on PSARips.
+Userscript for dark theme on PSARips
 
 ![Preview](https://github.com/ni554n/userscripts/raw/master/.images/psarips-dark-mode.jpg)
 
@@ -24,8 +24,10 @@ Use any of these following links:
 
 ## Version History
 
+- 1.1
+  - Fixed inverted iframe element
 - 1.0
-  - Initial release.
+  - Initial release
 
 ## Information
 
