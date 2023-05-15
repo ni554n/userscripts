@@ -1,8 +1,8 @@
-# PSARips - Replace Post Titles with IMDb Links
+# PSARips - Add IMDb & RARBG link in Post Titles
 
-Userscript for turning a PSARips Movie or TV Show post title into a direct IMDb link or IMDb search link.
+Userscript for enhancing post titles by adding links to IMDb and RARBG
 
-![Preview](https://github.com/ni554n/userscripts/raw/master/.images/psarips-replace-post-titles-with-imdb-links.png)
+![Preview](https://github.com/ni554n/userscripts/raw/master/.images/psarips-add-imdb-n-rarbg-link-in-post-titles.png)
 
 ## Requirement
 
@@ -24,28 +24,30 @@ Use any of these following links:
 
 ## Version History
 
+- 3.0
+  - Added RARBG supported with updated icon position
 - 2.4
-  - Added support for any psa.* domains.
+  - Added support for any psa.* domains
 - 2.3
-  - IMDb search will now show only the TV related titles.
+  - IMDb search will now show only the TV related titles
 - 2.2
-  - Improved script logic.
+  - Improved script logic
 - 2.1
-  - Replaced inactivated psa.one domain with new x265.club.
+  - Replaced inactivated psa.one domain with new x265.club
 - 2.0
-  - Added IMDb search support on the TV Show post titles.
+  - Added IMDb search support on the TV Show post titles
 - 1.7
-  - Added the psa.one official mirror domain.
+  - Added the psa.one official mirror domain
 - 1.6
-  - IMDb link will now open in a new tab.
+  - IMDb link will now open in a new tab
 - 1.5
-  - Added icons to the link for better clarity.
+  - Added icons to the link for better clarity
 - 1.0
-  - Initial implementation.
+  - Initial implementation
 
 ## Information
 
-**Author:** [Nissan Ahmed](https://ni554n.github.io) ([@ni554n](https://twitter.com/ni554n))
+**Author:** [Nissan Ahmed](https://anissan.com) ([@ni554n](https://twitter.com/ni554n))
 
 **Project:** [Homepage](https://github.com/ni554n/userscripts/) / [Support](https://github.com/ni554n/userscripts/issues)
 
