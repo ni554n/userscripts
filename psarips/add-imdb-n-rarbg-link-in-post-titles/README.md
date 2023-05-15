@@ -20,7 +20,7 @@ Any userscript manager, such as:
 Use any of these following links:
 
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/psarips/replace-post-titles-with-imdb-links/script.user.js)
-- [**Greasy Fork**](https://greasyfork.org/en/scripts/398896-psarips-replace-post-titles-with-imdb-links) (Recommended)
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/466372-psarips-add-imdb-rarbg-link-in-post-titles) (Recommended)
 
 ## Version History
 
