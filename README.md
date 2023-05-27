@@ -35,3 +35,4 @@ Collection of some useful userscripts I've written to enhance the user experienc
 **License:** [MIT](https://github.com/ni554n/userscripts/blob/master/LICENSE)
 
 **Donate:** [PayPal](https://paypal.me/ni554n)
+<img src="https://ping.anissan.com/?repo=userscripts" width="0" height="0" align="right">
