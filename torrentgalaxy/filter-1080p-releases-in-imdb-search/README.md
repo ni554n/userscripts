@@ -19,8 +19,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [**Greasy Fork**](https://greasyfork.org/) (Recommended)
-- [Direct link](https://github.com/ni554n)
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/470768-torrentgalaxy-filter-1080p-releases-in-imdb-search) (Recommended)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/torrentgalaxy/filter-1080p-releases-in-imdb-search/script.user.js)
 
 ## Version History
 
