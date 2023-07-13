@@ -19,7 +19,7 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [**Greasy Fork**](https://greasyfork.org/en/scripts/433480-imdb-transform-titles-to-tgx-links) (Recommended)
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/470761-imdb-link-titles-to-torrentgalaxy) (Recommended)
 - [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/transform-titles-into-TorrentGalaxy-links/script.user.js)
 
 ## Version History
