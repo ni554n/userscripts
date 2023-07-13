@@ -1,8 +1,8 @@
-# PSARips - Add IMDb & RARBG link in Post Titles
+# PSARips - Add IMDb & TorrentGalaxy link in Post Titles
 
-Userscript for enhancing post titles by adding links to IMDb and RARBG
+Userscript for enhancing post titles by adding links to IMDb and TorrentGalaxy
 
-![Preview](https://github.com/ni554n/userscripts/raw/master/.images/psarips-add-imdb-n-rarbg-link-in-post-titles.png)
+![Preview](https://github.com/ni554n/userscripts/raw/master/.images/psarips-add-imdb-n-tgx-link-in-post-titles.png)
 
 ## Requirement
 
@@ -24,26 +24,8 @@ Use any of these following links:
 
 ## Version History
 
-- 3.0
-  - Added RARBG supported with updated icon position
-- 2.4
-  - Added support for any psa.* domains
-- 2.3
-  - IMDb search will now show only the TV related titles
-- 2.2
-  - Improved script logic
-- 2.1
-  - Replaced inactivated psa.one domain with new x265.club
-- 2.0
-  - Added IMDb search support on the TV Show post titles
-- 1.7
-  - Added the psa.one official mirror domain
-- 1.6
-  - IMDb link will now open in a new tab
-- 1.5
-  - Added icons to the link for better clarity
 - 1.0
-  - Initial implementation
+  - Initial release
 
 ## Information
 

@@ -1,8 +1,8 @@
 // ==UserScript==
 
-// @name                PSARips - Add IMDb & RARBG link in Post Titles
-// @description         Enhance post titles by adding links to IMDb and RARBG
-// @version             3.0
+// @name                PSARips - Add IMDb & TorrentGalaxy link in Post Titles
+// @description         Enhance post titles by adding links to IMDb and TorrentGalaxy
+// @version             1.0
 
 // @namespace           io.github.ni554n
 // @match               https://psarips.*/movie/*
@@ -37,7 +37,7 @@ const infoDiv = /** @type {HTMLElement | undefined} */ (
 
 if (!infoDiv) {
   throw new Error(
-    "Info dropdown is not found. Check if the selector is still valid.",
+    "Info dropdown is not found. Check if the selector's changed.",
   );
 }
 
@@ -50,13 +50,11 @@ const imdbLink =
   imdbMovieLink ?? `https://www.imdb.com/find?s=tt&ttype=tv&q=${encodedTitle}`;
 
 const imdbIcon = `<i class="fab fa-imdb" style="font-style: normal;"></i>`;
-const imdbHtml = `<a href="${imdbLink}" target="_blank title="Open in IMDb">${imdbIcon}</a>`;
+const imdbHtml = `<a href="${imdbLink}" target="_blank" title="Open in IMDb">${imdbIcon}</a>`;
 
-const rarbgLink = imdbId
-  ? `https://rarbgto.org/torrents.php?imdb=${imdbId}`
-  : `https://rarbgto.org/torrents.php?search=${encodedTitle}&category%5B%5D=41`;
+const tgxIcon = `<i class="fa fa-magnet" style="font-style: normal;"></i>`;
+const tgxHtml = `<a href="https://torrentgalaxy.to/torrents.php?search=${
+  imdbId || encodedTitle
+}" target="_blank" title="Open in TorrentGalaxy">${tgxIcon}</a>`;
 
-const rarbgIcon = `<i class="fa fa-magnet" style="font-style: normal;"></i>`;
-const rarbgHtml = `<a href="${rarbgLink}" target="_blank title="Open in RARBG"">${rarbgIcon}</a>`;
-
-postTitleH1.innerHTML = `${imdbHtml}&nbsp;&nbsp;${rarbgHtml}<br />${postTitle}`;
+postTitleH1.innerHTML = `${imdbHtml}&nbsp;&nbsp;${tgxHtml}<br />${postTitle}`;
