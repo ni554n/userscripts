@@ -1,8 +1,8 @@
 // ==UserScript==
 
-// @name                IMDb - Transform Titles to RARBG Links
-// @description         Replaces the IMDb post titles with the RARBG catalog links
-// @version             2.2
+// @name                IMDb - Link Titles to TorrentGalaxy
+// @description         Replaces the IMDb post title with its corresponding TorrentGalaxy catalog link
+// @version             1.0
 
 // @namespace           io.github.ni554n
 // @match               https://www.imdb.com/title/*
@@ -42,11 +42,9 @@ function replaceTitle(_, observer) {
 
   if (!imdbId) throw new Error("Failed to get the IMDb ID from the meta tag.");
 
-  const rarbgLink = `https://rarbgto.org/torrents.php?imdb=${imdbId}`;
-
   const title = /** @type {HTMLElement} */ (titleElement).innerText;
 
   /** @type {HTMLElement} */ (
     titleElement
-  ).innerHTML = `<a href="${rarbgLink}" title="Open RARBG Catalog" target="_blank" style="color: white">${title}</a> ↗`;
+  ).innerHTML = `<a href="https://torrentgalaxy.to/torrents.php?search=${imdbId}" title="Open TorrentGalaxy Catalog" target="_blank" style="color: white">${title}</a> ↗`;
 }

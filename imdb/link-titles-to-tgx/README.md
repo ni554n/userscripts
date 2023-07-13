@@ -1,8 +1,8 @@
-# IMDb - Transform Titles into RARBG Links
+# IMDb - Link Titles to TorrentGalaxy
 
-Userscript for replacing the IMDb post titles with the RARBG catalog links.
+Userscript for replacing the IMDb post titles with its corresponding TorrentGalaxy catalog link.
 
-![Preview](https://github.com/ni554n/userscripts/raw/master/.images/imdb-transform-titles-into-rarbg-links.png)
+![Preview](https://github.com/ni554n/userscripts/raw/master/.images/imdb-link-titles-to-tgx.png)
 
 ## Requirement
 
@@ -19,23 +19,17 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [**Greasy Fork**](https://greasyfork.org/en/scripts/433480-imdb-transform-titles-to-rarbg-links) (Recommended)
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/transform-titles-into-rarbg-links/script.user.js)
+- [**Greasy Fork**](https://greasyfork.org/en/scripts/433480-imdb-transform-titles-to-tgx-links) (Recommended)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/transform-titles-into-TorrentGalaxy-links/script.user.js)
 
 ## Version History
 
-- 2.2
-  - Updated title selector
-- 2.1
-  - Fixed the title not linking to RARBG due to the changes in IMDb source format
-- 2.0
-  - Fixed the title reversion bug that happens because of the dynamic updates
 - 1.0
-  - Initial implementation
+  - Initial release
 
 ## Information
 
-**Author:** [Nissan Ahmed](https://ni554n.github.io) ([@ni554n](https://twitter.com/ni554n))
+**Author:** [Nissan Ahmed](https://anissan.com) ([@ni554n](https://twitter.com/ni554n))
 
 **Project:** [Homepage](https://github.com/ni554n/userscripts/) / [Support](https://github.com/ni554n/userscripts/issues)
 
