@@ -18,6 +18,7 @@ Collection of some useful userscripts I've written to enhance the user experienc
 | | [Dark Mode](psarips/dark-mode/) <br/> Inverted dark mode theme on PSARips. | <img src=".images\psarips-dark-mode.jpg" width="500" /> |
 | [RapidMoviez](http://rmz.cr) | [1080p Release Filter](rapidmoviez/1080p-release-filter/) <br/> Keeps only the 1080p links on release page by filtering out the other links. | <img src=".images/rapidmoviez-1080p-release-filter.png" width="500" /> |
 | | [Scrollable Popular Movies and TV Shows Section](rapidmoviez/scrollable-popular-movies-and-tv-shows-section/) <br/> Changes the grid style of "Popular Movies and TV Shows" section of RapidMoviez to a scrollable list mimicking the "Latest Episodes" section. | <img src=".images/rapidmoviez-scrollable-popular-movies-and-tv-shows-section.png" width="500" /> |
+| [TorrentGalaxy](https://torrentgalaxy.to) | [Filter 1080p Releases in IMDb Search](torrentgalaxy/filter-1080p-releases-in-imdb-search) <br/> Keeps only the 1080p releases on the TorrentGalaxy IMDb search page. | <img src=".images/torrentgalaxy-filter-1080p-releases-in-imdb-search.png" width="500" /> |
 
 ## Archived
 
