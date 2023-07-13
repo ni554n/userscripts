@@ -18,13 +18,13 @@ Collection of some useful userscripts I've written to enhance the user experienc
 | | [Dark Mode](psarips/dark-mode/) <br/> Inverted dark mode theme on PSARips. | <img src=".images\psarips-dark-mode.jpg" width="500" /> |
 | [RapidMoviez](http://rmz.cr) | [1080p Release Filter](rapidmoviez/1080p-release-filter/) <br/> Keeps only the 1080p links on release page by filtering out the other links. | <img src=".images/rapidmoviez-1080p-release-filter.png" width="500" /> |
 | | [Scrollable Popular Movies and TV Shows Section](rapidmoviez/scrollable-popular-movies-and-tv-shows-section/) <br/> Changes the grid style of "Popular Movies and TV Shows" section of RapidMoviez to a scrollable list mimicking the "Latest Episodes" section. | <img src=".images/rapidmoviez-scrollable-popular-movies-and-tv-shows-section.png" width="500" /> |
-| [RARBG](https://rarbgto.org) | [1080p Web Release Filter](rarbg/1080p-web-release-filter/) <br/> Keeps only the 1080p WEB releases on the RARBG TV HD Episodes category. | <img src=".images/rarbg-1080p-web-release-filter.png" width="500" /> |
-| | [Friendly Release Time Format](rarbg/friendly-release-time-format/) <br/> Transforms the default "Added" time format into a human readable relative time format. | <img src=".images/rarbg-friendly-release-time-format.png" width="500" /> |
 
 ## Archived
 
 - [1hack - Hide COUPONS on Homepage](.archive/1hack/hide-coupons-on-homepage) <br/> Hides [COUPON] & [COUPONS] tagged posts on the homepage.
 - [Google Drive - Highlight 1080p Releases](.archive/google-drive/highlight-1080p-releases) <br/> Highlights some text ("1080p" by default) in the Google Drive search results.
+- [RARBG - 1080p Web Release Filter](.archive/rarbg/1080p-web-release-filter) <br/> Keeps only the 1080p WEB releases on the RARBG TV HD Episodes category.
+- [RARBG - Friendly Release Time Format](.archive/rarbg/friendly-release-time-format) <br/> Transforms the default "Added" time format into a human readable relative time format.
 
 ## Information
 
