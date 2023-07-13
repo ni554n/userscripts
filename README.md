@@ -29,7 +29,7 @@ Collection of some useful userscripts I've written to enhance the user experienc
 
 ## Information
 
-**Author:** [Nissan Ahmed](https://ni554n.github.io) ([@ni554n](https://twitter.com/ni554n))
+**Author:** [Nissan Ahmed](https://anissan.com) ([@ni554n](https://twitter.com/ni554n))
 
 **Project:** [Homepage](https://github.com/ni554n/userscripts/) / [Support](https://github.com/ni554n/userscripts/issues)
 

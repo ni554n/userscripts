@@ -19,8 +19,8 @@ Any userscript manager, such as:
 
 Use any of these following links:
 
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/psarips/replace-post-titles-with-imdb-links/script.user.js)
 - [**Greasy Fork**](https://greasyfork.org/en/scripts/470758-psarips-add-imdb-torrentgalaxy-link-in-post-titles) (Recommended)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/psarips/add-imdb-n-tgx-link-in-post-titles/script.user.js)
 
 ## Version History
 
