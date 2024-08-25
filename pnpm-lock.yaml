@@ -1,12 +1,32 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
-devDependencies:
-  '@violentmonkey/types':
-    specifier: 0.1.5
-    version: 0.1.5
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@violentmonkey/types':
+        specifier: 0.1.9
+        version: 0.1.9
+      prettier:
+        specifier: 3.3.3
+        version: 3.3.3
 
 packages:
 
-  /@violentmonkey/types@0.1.5:
-    resolution: {integrity: sha512-pDj3TndOfXRWuyRLVlGCZbXDqh7L/Ca3qO8TDUWTtSuUPF+PkNKbMwuxPGrqmRFXn3V0hXp4wjCwzrDWyJCYiw==}
-    dev: true
+  '@violentmonkey/types@0.1.9':
+    resolution: {integrity: sha512-mBEHd8IOIrJW9NTSFf9474et5eduoq16Pmddg5O3MC/RElCxXay//Go0jpSz20LEpA9t0H44EHDRcXJYMBBtNg==}
+
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+snapshots:
+
+  '@violentmonkey/types@0.1.9': {}
+
+  prettier@3.3.3: {}

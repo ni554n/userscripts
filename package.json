@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "@violentmonkey/types": "0.1.5"
+    "@violentmonkey/types": "0.1.9",
+    "prettier": "3.3.3"
   }
 }

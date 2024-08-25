@@ -13,9 +13,11 @@
     "rarbgto",
     "Tampermonkey",
     "testid",
+    "TMDB",
     "torrentgalaxy",
     "Userscript",
     "Userscripts",
-    "Violentmonkey"
+    "Violentmonkey",
+    "xmlhttp"
   ]
 }
