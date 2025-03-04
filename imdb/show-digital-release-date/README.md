@@ -24,6 +24,8 @@ Use any of these following links:
 
 ## Version History
 
+- 1.1
+  - Added support for m.imdb.com
 - 1.0
   - Initial release
 

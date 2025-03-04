@@ -2,10 +2,11 @@
 
 // @name                IMDb - Show Digital Release Date
 // @description         Displays the digital release date for movies and TV shows on IMDb
-// @version             1.0
+// @version             1.1
 
 // @namespace           io.github.ni554n
 // @match               https://www.imdb.com/title/tt*
+// @match               https://m.imdb.com/title/tt*
 // @run-at              document-idle
 // @grant               GM_xmlhttpRequest
 

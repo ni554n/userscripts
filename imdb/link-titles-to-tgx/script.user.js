@@ -2,10 +2,11 @@
 
 // @name                IMDb - Link Titles to TorrentGalaxy
 // @description         Replaces the IMDb post title with its corresponding TorrentGalaxy catalog link
-// @version             1.0
+// @version             1.1
 
 // @namespace           io.github.ni554n
-// @match               https://www.imdb.com/title/*
+// @match               https://www.imdb.com/title/tt*
+// @match               https://m.imdb.com/title/tt*
 // @run-at              document-idle
 
 // @supportURL          https://github.com/ni554n/userscripts/issues
