@@ -2,7 +2,7 @@
 
 // @name                IMDb - Show Digital Release Date
 // @description         Displays the digital release date for movies and TV shows on IMDb
-// @version             1.1
+// @version             1.2
 
 // @namespace           io.github.ni554n
 // @match               https://www.imdb.com/title/tt*
@@ -101,7 +101,7 @@ function requestTmdb(url, onload) {
     url,
     headers: {
       accept: "application/json",
-      Authorization: `Bearer ${atob("ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKaGRXUWlPaUl4Wm1FelpETTFaR1l4TVdOak9HRmpNR1F6WVRsaU5qaGtZVGt4WTJZeVpTSXNJbk4xWWlJNklqWTBZbUU0TUdSa01URXpPRFpqTURCallXWTRNelE1TlNJc0luTmpiM0JsY3lJNld5SmhjR2xmY21WaFpDSmRMQ0oyWlhKemFXOXVJam94ZlEuUXNTVlFIWlhYSE1fYlpMZGs3dHo5ck5CSzFYVGpuc1FSS2dCLU92aUdrWQ==")}`,
+			Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZmEzZDM1ZGYxMWNjOGFjMGQzYTliNjhkYTkxY2YyZSIsIm5iZiI6MTY4OTk0NDI4NS41OTIsInN1YiI6IjY0YmE4MGRkMTEzODZjMDBjYWY4MzQ5NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ZoGbQGRoy5L6ieCD73ey5b0Ck3HTdNI9PDebb5NVMJg",
     },
     responseType: "json",
     onload,
