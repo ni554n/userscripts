@@ -24,6 +24,8 @@ Use any of these following links:
 
 ## Version History
 
+- 1.3
+  - Skip adding the release date gracefully when the subtitle element is not present on the page
 - 1.2
   - Replace API key with read only access token
 - 1.1

@@ -2,7 +2,7 @@
 
 // @name                IMDb - Show Digital Release Date
 // @description         Displays the digital release date for movies and TV shows on IMDb
-// @version             1.2
+// @version             1.3
 
 // @namespace           io.github.ni554n
 // @match               https://www.imdb.com/title/tt*
@@ -67,11 +67,21 @@ requestTmdb(
  * @param { string | Date } releaseDate
  */
 function addReleaseDateInfo(releaseDate) {
-  const subtitleElement = document.querySelector(
+  const parentElement = document.querySelector(
     `h1[data-testid="hero__pageTitle"]`,
-  )?.parentElement?.lastElementChild;
+  )?.parentElement;
 
-  const releasedNode = subtitleElement?.lastElementChild?.cloneNode();
+  const subtitleElement = parentElement?.querySelector(
+    `:scope > ul.ipc-inline-list`,
+  );
+  if (!subtitleElement) {
+    console.info(
+      "This IMDb title has not released yet. Skipping digital release check.",
+    );
+    return;
+  }
+
+  const releasedNode = subtitleElement.lastElementChild?.cloneNode();
   if (!releasedNode) {
     console.error(
       "Failed to create a suitable element to add the release date in IMDb webpage.",
@@ -87,7 +97,7 @@ function addReleaseDateInfo(releaseDate) {
     releasedNode.title = "Digital release date not found";
   }
 
-  subtitleElement?.appendChild(releasedNode);
+  subtitleElement.appendChild(releasedNode);
 }
 
 /**
