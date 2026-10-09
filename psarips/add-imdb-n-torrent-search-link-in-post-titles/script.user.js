@@ -1,23 +1,20 @@
 // ==UserScript==
 
-// @name                PSARips - Add IMDb & TorrentGalaxy link in Post Titles
-// @description         Enhance post titles by adding links to IMDb and TorrentGalaxy
-// @version             1.0
+// @name                PSARips - Add IMDb & Torrent Search Link in Post Titles
+// @description         Enhance post titles by adding links to IMDb and Torrent search links
+// @version             1.5
 
 // @namespace           io.github.ni554n
-// @match               https://psarips.*/movie/*
-// @match               https://psarips.*/tv-show/*
-// @match               https://psa.*/movie/*
-// @match               https://psa.*/tv-show/*
-// @match               https://x265.club/movie/*
-// @match               https://x265.club/tv-show/*
+// @match               https://psarips.tld/movie/*
+// @match               https://psarips.tld/tv-show/*
+// @match               https://psa.tld/movie/*
+// @match               https://psa.tld/tv-show/*
 
 // @supportURL          https://github.com/ni554n/userscripts/issues
 // @license             MIT
 
 // @author              Nissan Ahmed
 // @homepageURL         https://anissan.com
-// @contributionURL     https://paypal.me/ni554n
 
 // ==/UserScript==
 
@@ -52,9 +49,7 @@ const imdbLink =
 const imdbIcon = `<i class="fab fa-imdb" style="font-style: normal;"></i>`;
 const imdbHtml = `<a href="${imdbLink}" target="_blank" title="Open in IMDb">${imdbIcon}</a>`;
 
-const tgxIcon = `<i class="fa fa-magnet" style="font-style: normal;"></i>`;
-const tgxHtml = `<a href="https://torrentgalaxy.to/torrents.php?search=${
-  imdbId || encodedTitle
-}" target="_blank" title="Open in TorrentGalaxy">${tgxIcon}</a>`;
+const torrentIcon = `<i class="fa fa-magnet" style="font-style: normal;"></i>`;
+const torrentLinkHtml = `<a href="https://1337x.to/search/${encodedTitle}+1080p+qxr/1/" target="_blank" title="Open in 1337x">${torrentIcon}</a>`;
 
-postTitleH1.innerHTML = `${imdbHtml}&nbsp;&nbsp;${tgxHtml}<br />${postTitle}`;
+postTitleH1.innerHTML = `${imdbHtml}&nbsp;&nbsp;${torrentLinkHtml}<br />${postTitle}`;
