@@ -1,6 +1,6 @@
-# IMDb - Link Titles to TorrentGalaxy
+# IMDb - Link Titles to Torrent Index
 
-Userscript for replacing the IMDb post titles with its corresponding TorrentGalaxy catalog link.
+Userscript for replacing the IMDb post titles with its corresponding torrent index link.
 
 ![Preview](https://github.com/ni554n/userscripts/raw/master/.images/imdb-link-titles-to-tgx.png)
 
@@ -20,10 +20,12 @@ Any userscript manager, such as:
 Use any of these following links:
 
 - [**Greasy Fork**](https://greasyfork.org/en/scripts/470761-imdb-link-titles-to-torrentgalaxy) (Recommended)
-- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/link-titles-to-tgx/script.user.js)
+- [Direct link](https://github.com/ni554n/userscripts/raw/master/imdb/link-titles-to-torrent-index/script.user.js)
 
 ## Version History
 
+- 1.5
+  - Replace TorrentGalaxy with UIndex
 - 1.1
   - Added support for m.imdb.com
 - 1.0

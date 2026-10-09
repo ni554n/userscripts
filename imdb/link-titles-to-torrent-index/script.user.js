@@ -1,8 +1,8 @@
 // ==UserScript==
 
-// @name                IMDb - Link Titles to TorrentGalaxy
-// @description         Replaces the IMDb post title with its corresponding TorrentGalaxy catalog link
-// @version             1.1
+// @name                IMDb - Link Titles to Torrent Index
+// @description         Replaces the IMDb post title with its corresponding torrent index link
+// @version             1.5
 
 // @namespace           io.github.ni554n
 // @match               https://www.imdb.com/title/tt*
@@ -37,15 +37,9 @@ function replaceTitle(_, observer) {
   // infinite loop disconnecting the observer beforehand is required.
   if (observer) observer.disconnect();
 
-  const imdbId = /** @type {HTMLMetaElement | null} */ (
-    document.querySelector(`meta[property="imdb:pageConst"]`)
-  )?.content;
-
-  if (!imdbId) throw new Error("Failed to get the IMDb ID from the meta tag.");
-
   const title = /** @type {HTMLElement} */ (titleElement).innerText;
 
   /** @type {HTMLElement} */ (
     titleElement
-  ).innerHTML = `<a href="https://torrentgalaxy.to/torrents.php?search=${imdbId}" title="Open TorrentGalaxy Catalog" target="_blank" style="color: white">${title}</a> ↗`;
+  ).innerHTML = `<a href="https://uindex.org/search.php?search=${title.replaceAll(" ", "+")}" title="Open UIndex" target="_blank" style="color: white">${title}</a> ↗`;
 }
